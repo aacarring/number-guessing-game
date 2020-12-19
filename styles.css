@@ -1,0 +1,66 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: #F5D042;
+    color: #0A174E;
+    width: 100vw;
+    height: 100vh;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+header h1, 
+.score {
+    font-family: 'DM Serif Text', serif;
+    text-align: center;
+}
+header h1 {
+    font-size: 3em;
+    margin-bottom: 2vh;
+}
+header p {
+    font-size: 1.25em;
+    margin-bottom: 10vh;
+}
+.score {
+    font-size: 2em;
+    font-weight: bold;
+    padding: 5px;
+    border: 5px solid #0A174E;
+    border-radius: 15px;
+    margin-bottom: 10vh;
+}
+.input {
+    font-size: 1.5em;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.input input {
+    margin: 2.5vh;
+    display: flex;
+    width: 30%;
+}
+.guess {
+    width: 7.5vw;
+    height: 6.5vh;
+    font-size: 1.25em;
+    border-radius: 5px;
+    margin: 5vh;
+}
+.guess:hover {
+    cursor: pointer;
+    background: #0A174E;
+    color: #F5D042;
+}
