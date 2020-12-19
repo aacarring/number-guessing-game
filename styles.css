@@ -30,7 +30,7 @@ header h1 {
 }
 header p {
     font-size: 1.25em;
-    margin-bottom: 10vh;
+    margin-bottom: 7.5vh;
 }
 .score {
     font-size: 2em;
@@ -38,7 +38,7 @@ header p {
     padding: 5px;
     border: 5px solid #0A174E;
     border-radius: 15px;
-    margin-bottom: 10vh;
+    margin-bottom: 7.5vh;
 }
 .input {
     font-size: 1.5em;
