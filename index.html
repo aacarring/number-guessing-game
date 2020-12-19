@@ -4,11 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Guess The Number</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="./styles.css">
 </head>
 <body>
 
     <div class="container">
+
         <header>
             <h1>Guess The Number</h1>
             <p>I'm thinking of a number between 0 and 5...can you guess it?</p>
@@ -17,11 +20,16 @@
         <div class="scoreboard">
             <div class="score">Score: </div>
         </div>
-        
+
         <div class="input">
-            <label for="">Guess a number between 0 and 5.</label>
-            <input type="number">
+            <label>Enter a number between 0 and 5.</label>
+            <input type="number" min="0" max="5">
         </div>
+
+        <div class="button">
+            <button type="submit" class="guess">Guess</button>
+        </div>
+
     </div>
     
 <script src="./app.js"></script>
